@@ -1,6 +1,6 @@
 //to fecth data from json file
 let data;
-fetch('../data.json')
+fetch('/data.json')
     .then(res => res.json())
     .then(jsondata => data = jsondata)
     .then(() => {
